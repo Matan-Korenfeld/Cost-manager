@@ -2,9 +2,11 @@
 
 CostManager desktop application that allows its users to track their expenses. The application should allow its users the following operations:
 
-1.Adding a new cost while specifying the category to which that cost will be added, the sum, the currency, and a small text describing that cost.
-2.Adding new categories to a small list of categories that should be already defined.
-3.Getting a detailed report that lists all costs in a specific period of time the user selects.
+1. Adding a new cost while specifying the category to which that cost will be added, the sum, the currency, and a small text describing that cost.
+2. Adding new categories to a small list of categories that should be already defined.
+3. Getting a detailed report that lists all costs in a specific period of time the user selects.
+4. Removing a cost.
+5. Update a cost.
 
 ## The Architecture - MVVM design pattern
 * The methods we definde in IViewModel returns void, and their signature cannot include a throws clause. They should be asynchronous methods.
